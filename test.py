@@ -10,6 +10,16 @@ d = {
     "email": "rakeshranjan4294@gmail.com",
     "surname": "ranjan"
 }
+d = {
+    "name": "rakesh",
+    "email": "rakeshranjan4294@gmail.com",
+    "surname": "ranjan"
+}
+d = {
+    "name": "rakesh",
+    "email": "rakeshranjan4294@gmail.com",
+    "surname": "ranjan"
+}
 db1 = client['mongodb']
 coll = db1['test']
 coll.insert_one(d )
